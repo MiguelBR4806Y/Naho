@@ -45,41 +45,86 @@
             <canvas id="canvas" width="1100" height="680"></canvas>
         </div>
         <br><br>
+
+        <!-- Acordeón corregido -->
         <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#collapseOne" 
-              aria-expanded="false" 
-              aria-controls="collapseOne">
-        Photos
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <div class="cajap">
-          <img src="img/1.JPG" class="photo-small">
-          <img src="img/2.JPG" class="photo-small">
-          <img src="img/3.JPG" class="photo-small">
-          <img src="img/4.JPG" class="photo-small">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#collapseOne" 
+                      aria-expanded="false" 
+                      aria-controls="collapseOne">
+                Photos
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                <!-- Primera fila -->
+                <div class="cajap">
+                  <div class="cardp">
+                    <img src="img/1.JPG" class="photo-small">
+                    <span>Forever</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/2.JPG" class="photo-small">
+                    <span>I’ll</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/3.JPG" class="photo-small">
+                    <span>love</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/4.JPG" class="photo-small">
+                    <span>you,</span>
+                  </div>
+                </div>
+
+                <!-- Segunda fila -->
+                <div class="cajap">
+                  <div class="cardp">
+                    <img src="img/5.JPG" class="photo-small">
+                    <span>beyond</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/6.JPG" class="photo-small">
+                    <span>time</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/7.JPG" class="photo-small">
+                    <span>and</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/8.jpg" class="photo-small">
+                    <span>endless skies.</span>
+                  </div>
+                </div>
+
+                <!-- Tercera fila con frases añadidas -->
+                <div class="cajap">
+                  <div class="cardp">
+                    <img src="img/9.jpg" class="photo-small">
+                    <span>With</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/10.jpg" class="photo-small">
+                    <span>all</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/11.jpg" class="photo-small">
+                    <span>my</span>
+                  </div>
+                  <div class="cardp">
+                    <img src="img/12.jpg" class="photo-small">
+                    <span>heart.</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="cajap">
-          <img src="img/5.JPG" class="photo-small">
-          <img src="img/6.JPG" class="photo-small">
-          <img src="img/7.JPG" class="photo-small">
-          <img src="img/8.jpg" class="photo-small">
-        </div>
-        <div class="cajap">
-          <img src="img/9.jpg" class="photo-small">
-          <img src="img/10.jpg" class="photo-small">
-          <img src="img/11.jpg" class="photo-small">
-          <img src="img/12.jpg" class="photo-small">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
     </div>
     <script src="script.js"></script>
